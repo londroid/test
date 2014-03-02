@@ -9,13 +9,16 @@
     tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/hello1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
 
     <TextView
+         android:id="@+id/hello2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/hello1"
         android:text="@string/hello_world_again" />
 
 </RelativeLayout>
